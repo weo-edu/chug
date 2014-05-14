@@ -1,0 +1,32 @@
+{
+  "name": "chug",
+  "version": "0.0.0",
+  "description": "Streaming mongo migrates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:weo-edu/chug.git"
+  },
+  "keywords": [
+    "mongo",
+    "migrate",
+    "migrations"
+  ],
+  "author": "joshrtay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weo-edu/chug/issues"
+  },
+  "homepage": "https://github.com/weo-edu/chug",
+  "dependencies": {
+    "monk": "~0.9.0",
+    "event-stream": "~3.1.5",
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "should": "~3.3.1"
+  }
+}
